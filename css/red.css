@@ -1,0 +1,20 @@
+:root {
+  --color-brand-green: #ff0404 !important;
+
+  --landing-green-label: #a90000 !important;
+  --landing-green-label-bg: rgb(216 0 0 / 15%) !important;
+
+  --color-brand-highlight: rgb(175 0 0 / 25%) !important;
+  --color-brand-shadow: rgb(175 0 0 / 70%) !important;
+
+  --landing-blue-label: #ba0000 !important;
+  --landing-blue-label-bg: rgb(216 0 0 / 15%)!important;
+}
+
+.users-section-outer .users-section .feature-blob .blob-demonstration[data-v-826e3f53]:after {
+    background: linear-gradient(0deg,#ce0505,rgb(206 5 5 / 0%));
+}
+.main-header-strong[data-v-826e3f53] {
+    background-image: linear-gradient(180deg,#ffa7a7 0,var(--color-brand) 60%) !important;
+}
+/* RED COMPLETED */

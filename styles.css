@@ -1,0 +1,23 @@
+/*
+:root {
+
+  --color-brand-green: #047eff !important;
+  --landing-green-label: #006da9 !important;
+  --landing-green-label-bg: rgb(0 116 216 / 15%) !important;
+  --color-brand-highlight: rgb(0 70 175 / 25%) !important;
+  --color-brand-shadow: rgb(0 85 175 / 70%) !important;
+}
+
+.users-section-outer .users-section .feature-blob .blob-demonstration[data-v-826e3f53]:after {
+	background: linear-gradient(0deg,#055fce,rgb(5 102 206 / 0%)) !important;
+    border-radius: 1rem;
+    content: "";
+    height: 55%;
+    inset: 0 0 -0.75rem -0.75rem;
+    margin-top: auto;
+    opacity: .2;
+    position: absolute;
+    width: calc(100% + 1.5rem);
+    z-index: -1;
+}
+*/

@@ -1,0 +1,20 @@
+:root {
+  --color-brand-green: #ffb904 !important;
+
+  --landing-green-label: #d39a00 !important;
+  --landing-green-label-bg: rgb(237 219 0 / 15%) !important;
+
+  --color-brand-highlight: rgb(221 193 0 / 25%) !important;
+  --color-brand-shadow: rgb(233 195 0 / 70%) !important;
+
+  --landing-blue-label: #d39a00;
+  --landing-blue-label-bg: rgb(237 219 0 / 15%) !important;
+}
+
+.users-section-outer .users-section .feature-blob .blob-demonstration[data-v-826e3f53]:after {
+    background: linear-gradient(0deg,#f1bd00,rgba(5,206,69,0)) !important;
+  }
+.main-header-strong[data-v-826e3f53] {
+    background-image: linear-gradient(180deg,#ffe4a7 0,var(--color-brand) 60%) !important;
+  }
+/* YELLOW COMPLETED */

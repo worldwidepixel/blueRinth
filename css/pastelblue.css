@@ -1,0 +1,21 @@
+:root {
+  --color-brand-green: #74c7ec !important;
+
+  --landing-green-label: #00b5a2 !important;
+  --landing-green-label-bg: rgb(0 196 216 / 15%) !important;
+
+  --color-brand-highlight: rgb(0 127 175 / 25%) !important;
+  --color-brand-shadow: rgb(0 175 168 / 70%) !important;
+
+  --landing-blue-label: #00b5a2 !important;
+  --landing-blue-label-bg: rgb(0 196 216 / 15%) !important;
+}
+
+.users-section-outer .users-section .feature-blob .blob-demonstration[data-v-826e3f53]:after {
+    background: linear-gradient(0deg,#05cec5,rgba(5,206,69,0)) !important;
+}
+
+.main-header-strong[data-v-826e3f53] {
+    background-image: linear-gradient(180deg,#a7d0ff 0,var(--color-brand) 60%) !important;
+}
+/* PASTEL BLUE COMPLETED */

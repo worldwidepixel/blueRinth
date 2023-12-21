@@ -1,0 +1,97 @@
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  padding: 1rem;
+  gap: 1rem;
+  align-items: center;
+
+  font-family: Inter, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.colourPickerContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.colour {
+  width: 3rem;
+  height: 3rem;
+
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.4s;
+}
+
+.colour:hover {
+  transform: scale(1.1);
+}
+
+.colour:active {
+  transform: scale(0.9);
+}
+
+.red {
+  background-color: #ff0404;
+}
+
+.orange {
+  background-color: #ff6204;
+}
+
+.yellow {
+  background-color: #ffb904;
+}
+
+.green {
+  background-color: #14da6a;
+}
+
+.blue {
+  background-color: #047eff;
+}
+
+.purple {
+  background-color: #d504ff;
+}
+
+.credit {
+  font-size: 0.75rem;
+}
+
+.creditLink {
+  color: black;
+}
+
+.pastelred {
+  background-color: #f38ba8;
+}
+
+.pastelorange {
+  background-color: #fab387;
+}
+
+.pastelyellow {
+  background-color: #f9e2af;
+}
+
+.pastelgreen {
+  background-color: #a6e3a1;
+}
+
+.pastelblue {
+  background-color: #74c7ec;
+}
+
+.pastelpurple {
+  background-color: #b4befe;
+}
