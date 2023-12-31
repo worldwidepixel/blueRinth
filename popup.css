@@ -1,3 +1,4 @@
+@import url("https://fonts.xz.style/serve/inter.css");
 
 .content {
   display: flex;
@@ -30,6 +31,16 @@
   align-items: center;
   justify-content: center;
   transition-duration: 0.4s;
+}
+
+.creditLink {
+  text-decoration: none;
+  color:hsl(211, 100%, 51%) !important;
+  transition-duration: 0.4s;
+}
+
+.creditLink:hover {
+  color:hsl(211, 100%, 35%) !important;
 }
 
 .colour:hover {
