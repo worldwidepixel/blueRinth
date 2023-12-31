@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
             let pref = {};
             pref["color"] = buttonId;
             chrome.storage.sync.set(pref); //chrome
-            browser.storage.sync.set(pref); //firefox
         });
     });
 });

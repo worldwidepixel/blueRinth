@@ -6,8 +6,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     }
 });
 
-console.log(browser.storage.sync.get("color"));
-browser.storage.sync.get("color").then(result => {
+chrome.storage.sync.get("color").then(result => {
     changeStylesheet(result["color"]);
 })
 
