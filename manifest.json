@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "blueRinth Tweaked",
-    "version": "1.0.0",
-    "description": "Change the colour of Modrinth, with a few quality of life changes.",
+    "name": "blueRinth",
+    "version": "2.0.0",
+    "description": "Change the colour of Modrinth.",
     "icons": {
         "48": "img/icon.png"
     },
@@ -10,8 +10,7 @@
         "default_popup": "popup.html"
     },
     "permissions": [
-        "activeTab",
-        "storage"
+        "activeTab"
     ],
     "content_scripts": [{
         "matches": ["*://modrinth.com/*"],
@@ -20,7 +19,7 @@
     }],
     "browser_specific_settings": {
     "gecko": {
-      "id": "bluerinthtweaked@rowandev.uk",
+      "id": "bluerinth@worldwidepixel.ca",
       "strict_min_version": "42.0"
       }
     },
