@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "blueRinth",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "Change the colour of Modrinth.",
     "icons": {
         "48": "img/icon.png"
@@ -15,8 +15,7 @@
     ],
     "content_scripts": [{
         "matches": ["*://modrinth.com/*"],
-        "js": ["content.js"],
-        "css": ["popup.css"]
+        "js": ["content.js"]
     }],
     "browser_specific_settings": {
     "gecko": {
