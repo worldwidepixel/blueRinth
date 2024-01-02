@@ -1,5 +1,31 @@
 @import url("https://fonts.xz.style/serve/inter.css");
 
+.popupBody {
+  @media (prefers-color-scheme: dark) {
+    background-color: rgb(38, 41, 47);
+  }
+}
+
+.large {
+  @media (prefers-color-scheme: dark) {
+    color: white;
+  }
+}
+
+.small {
+  @media (prefers-color-scheme: dark) {
+    color: rgb(176, 186, 197);
+  }
+}
+
+.colorCheck {
+  color: white;
+  transition-duration: 0.2s;
+  width: 1.5rem;
+  stroke-width: 3px;
+  opacity: 0;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -37,6 +63,12 @@
   text-decoration: none;
   color:hsl(211, 100%, 51%) !important;
   transition-duration: 0.4s;
+}
+
+.credit {
+  @media (prefers-color-scheme: dark) {
+    color: rgb(176, 186, 197);
+  }
 }
 
 .creditLink:hover {
