@@ -1,20 +1,20 @@
 :root {
-  --color-brand: #ff496e !important;
+  --color-brand: #ff125e !important;
 
-  --landing-green-label: #ff496e !important;
+  --landing-green-label: #ff125e !important;
   --landing-green-label-bg: rgb(216 0 0 / 15%) !important;
 
   --color-brand-highlight: rgb(255 92 125 / 25%) !important;
   --color-brand-shadow: rgb(209 40 74 / 70%) !important;
 
-  --landing-blue-label: #ff496e !important;
+  --landing-blue-label: #ff125e !important;
   --landing-blue-label-bg: rgb(216 0 0 / 15%)!important;
 }
 
 .users-section-outer .users-section .feature-blob .blob-demonstration[data-v-826e3f53]:after {
-    background: linear-gradient(0deg,#ce0505,rgb(206 5 5 / 0%));
+    background: linear-gradient(0deg,#c6354b,rgb(206 5 5 / 0%));
 }
-.main-header-strong[data-v-826e3f53] {
+.main-header-strong {
     background-image: linear-gradient(180deg,#ffa7a7 0,var(--color-brand) 60%) !important;
 }
-/* RED COMPLETED */
+/* NM RED COMPLETED */

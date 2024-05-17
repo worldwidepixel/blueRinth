@@ -18,6 +18,22 @@
   }
 }
 
+.easterEggImg {
+  transition-duration: 0.1s;
+}
+.easterEggImg:active {
+  transform: scale(0.95);
+}
+
+.activeEasterEggImg {
+  transition-duration: 0.1s;
+  transform: rotate(-45deg);
+  filter: hue-rotate(0.29turn);
+}
+.activeEasterEggImg:active {
+  transform: rotate(-45deg) scale(0.95);
+}
+
 .colorCheck {
   color: white;
   transition-duration: 0.2s;
@@ -84,7 +100,7 @@
 }
 
 .red {
-  background-color: #ff0404;
+  background-color: #ff496e;
 }
 
 .orange {
