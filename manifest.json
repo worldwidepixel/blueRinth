@@ -1,33 +1,32 @@
 {
-    "manifest_version": 3,
-    "name": "blueRinth",
-    "version": "3.4.0",
-    "description": "Change the colour of Modrinth.",
-    "icons": {
-        "48": "img/icon.png"
-    },
-    "action": {
-        "default_popup": "popup.html"
-    },
-    "permissions": [
-        "activeTab",
-		"storage"
-    ],
-    "content_scripts": [{
-        "matches": ["*://modrinth.com/*"],
-        "js": ["content.js"]
-    }],
-    "browser_specific_settings": {
+  "manifest_version": 3,
+  "name": "blueRinth",
+  "version": "3.4.0",
+  "description": "Change the colour of Modrinth.",
+  "icons": {
+    "48": "img/icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://modrinth.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_specific_settings": {
     "gecko": {
       "id": "bluerinth@worldwidepixel.ca",
       "strict_min_version": "42.0"
-      }
-    },
-    "web_accessible_resources": [
-      {
-        "resources": ["css/*.css", "img/easter_eggs/*.svg"],
-        "matches": ["*://modrinth.com/*"],
-        "use_dynamic_url": true
-      }
-    ]
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["css/*.css", "img/easter_eggs/*.svg", "img/*.png"],
+      "matches": ["*://modrinth.com/*"],
+      "use_dynamic_url": true
+    }
+  ]
 }

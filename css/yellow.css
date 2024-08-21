@@ -11,10 +11,21 @@
   --landing-blue-label-bg: rgb(237 219 0 / 15%) !important;
 }
 
-.users-section-outer .users-section .feature-blob .blob-demonstration[data-v-826e3f53]:after {
-    background: linear-gradient(0deg,#f1bd00,rgba(5,206,69,0)) !important;
-  }
+.users-section-outer
+  .users-section
+  .feature-blob
+  .blob-demonstration[data-v-826e3f53]:after {
+  background: linear-gradient(0deg, #f1bd00, rgba(5, 206, 69, 0)) !important;
+}
 .main-header-strong[data-v-826e3f53] {
-    background-image: linear-gradient(180deg,#ffe4a7 0,var(--color-brand) 60%) !important;
-  }
+  background-image: linear-gradient(
+    180deg,
+    #ffe4a7 0,
+    var(--color-brand) 60%
+  ) !important;
+}
 /* YELLOW COMPLETED */
+
+* {
+  --color-brand: #ffb904 !important;
+}

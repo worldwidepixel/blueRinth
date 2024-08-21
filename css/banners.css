@@ -1,0 +1,51 @@
+.banner-container {
+  width: 100%;
+  height: 20rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition-duration: 1s;
+}
+.banner-image {
+  width: 100%;
+  height: 100%;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  filter: blur(20px);
+  transform: scale(105%);
+  animation: fadeIn 0.5s;
+  animation-timing-function: ease-in-out;
+  transition-duration: 1s;
+}
+
+.banner-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg);
+  z-index: -2;
+  left: 0;
+  top: 0;
+}
+
+body {
+  background-color: #00000000 !important;
+}
+.layout {
+  background-color: #00000000 !important;
+}
+
+html {
+  background-color: var(--color-bg);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

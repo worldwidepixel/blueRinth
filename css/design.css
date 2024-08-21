@@ -1,0 +1,83 @@
+/*HEADER*/
+/*
+@media (min-width: 1024px) {
+  .popup-menu a svg {
+    display: none !important;
+  }
+  header > div:nth-child(2) .popup-container {
+    display: contents;
+  }
+  header > div:nth-child(2) .popup-container button {
+    display: none !important;
+  }
+  header > div:nth-child(2) > div:nth-child(3) > .btn-wrapper {
+    display: none !important;
+  }
+  header > div:nth-child(2) .popup-menu {
+    display: flex !important;
+    position: revert !important;
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    scale: 1 !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    height: fit-content !important;
+    font-weight: bold !important;
+  }
+  header > div:nth-child(2) .popup-container > .popup-menu a {
+    pointer-events: auto !important;
+    margin: 0 !important;
+    font-weight: bold !important;
+  }
+}
+header .contents.lg\:hidden {
+  display: none;
+}
+.logo-info::after {
+  content: "blueRinth by WorldWidePixel";
+}
+header > div:nth-child(2) > .contents .popup-container .popup-menu {
+  display: none !important;
+}
+*/
+/*USER/PROJECT PAGE*/
+
+.normal-page__header > div:nth-child(2) nav {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: var(--size-rounded-card) !important;
+}
+/*main div.normal-page__sidebar {
+} */
+
+@media screen and (min-width: 1024px) {
+  .new-page.sidebar {
+    grid-template: "header header" auto "sidebar content" auto "dummy content" 1fr/18.75rem 1fr !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .new-page.sidebar {
+    grid-template: "header header" auto "sidebar content" auto "dummy content" 1fr/18.75rem 1fr !important;
+  }
+}
+.avatar {
+  border: none !important;
+}
+.normal-page__content .title {
+  color: var(--color-contrast) !important;
+}
+h1 {
+  color: var(--color-contrast) !important;
+}
+h2 {
+  color: var(--color-contrast) !important;
+}
+a.details-list__item > div > span:nth-child(1) {
+  color: var(--color-contrast) !important;
+}

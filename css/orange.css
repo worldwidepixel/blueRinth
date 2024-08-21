@@ -11,10 +11,21 @@
   --landing-blue-label-bg: rgb(216 100 0 / 15%) !important;
 }
 
-.users-section-outer .users-section .feature-blob .blob-demonstration[data-v-826e3f53]:after {
-    background: linear-gradient(0deg,#fd8100,rgb(206 127 5 / 0%)) !important;
+.users-section-outer
+  .users-section
+  .feature-blob
+  .blob-demonstration[data-v-826e3f53]:after {
+  background: linear-gradient(0deg, #fd8100, rgb(206 127 5 / 0%)) !important;
 }
 .main-header-strong[data-v-826e3f53] {
-    background-image: linear-gradient(180deg,#ffc7a7 0,var(--color-brand) 60%) !important;
+  background-image: linear-gradient(
+    180deg,
+    #ffc7a7 0,
+    var(--color-brand) 60%
+  ) !important;
 }
 /* ORANGE COMPLETED */
+
+* {
+  --color-brand: #ff6204 !important;
+}
