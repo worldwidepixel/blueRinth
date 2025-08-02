@@ -1,82 +1,281 @@
 <!DOCTYPE html>
 
 <html>
- <head>
-   <title>blueRinth</title>
-   <link rel="stylesheet" href="popup.css">
- </head>
- <body class="popupBody">
-   <div class="content">
-     <img id="logoButton" class="easterEggImg" src="./img/icon.png">
-     <div> <span class="large">blueRinth: Change the colour of Modrinth.</span> </div>
+  <head>
+    <title>blueRinth</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body class="popupBody">
+    <div class="content">
+      <img id="logoButton" class="easterEggImg" src="./img/icon.png" />
+      <div>
+        <span class="large">blueRinth: Change the colour of Modrinth.</span>
+      </div>
 
-     <span class="small"> Vibrant </span>
+      <span class="small"> Vibrant </span>
 
-     <div class="colourPickerContainer">
+      <div class="colourPickerContainer">
+        <div id="red" class="colour red">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
 
-       <div id="red" class="colour red">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
+        <div id="orange" class="colour orange">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
 
-       <div id="orange" class="colour orange">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
+        <div id="yellow" class="colour yellow">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
 
-       <div id="yellow" class="colour yellow">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
+        <div id="green" class="colour green">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
 
-       <div id="green" class="colour green">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
+        <div id="blue" class="colour blue">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
 
-       <div id="blue" class="colour blue">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
+        <div id="purple" class="colour purple">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
+      </div>
 
-       <div id="purple" class="colour purple">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
+      <span class="small"> Pastels </span>
 
-     </div>
+      <div class="colourPickerContainer">
+        <div id="pastelred" class="colour pastelred">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
 
-     <span class="small"> Pastels </span>
+        <div id="pastelorange" class="colour pastelorange">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
 
-     <div class="colourPickerContainer">
+        <div id="pastelyellow" class="colour pastelyellow">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
 
-       <div id="pastelred" class="colour pastelred">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
+        <div id="pastelgreen" class="colour pastelgreen">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
 
-       <div id="pastelorange" class="colour pastelorange">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
+        <div id="pastelblue" class="colour pastelblue">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
 
-       <div id="pastelyellow" class="colour pastelyellow">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
+        <div id="pastelpurple" class="colour pastelpurple">
+          <svg
+            class="colorCheck"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-check-circle-2"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
+        </div>
+      </div>
 
-       <div id="pastelgreen" class="colour pastelgreen">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
+      <span class="credit">
+        v4.1 | Created by
+        <a target="_blank" class="creditLink" href="https://worldwidepixel.ca/">
+          WorldWidePixel
+        </a>
+      </span>
+      <span class="credit">
+        Pastel colours from
+        <a
+          target="_blank"
+          class="creditLink"
+          href="https://github.com/catppuccin/catppuccin"
+        >
+          catppuccin
+        </a>
+      </span>
+      <span class="credit">
+        Fixes implemented by
+        <a
+          target="_blank"
+          class="creditLink"
+          href="https://github.com/rowandevving"
+        >
+          Rowan
+        </a></span
+      >
+    </div>
+  </body>
 
-       <div id="pastelblue" class="colour pastelblue">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
-
-       <div id="pastelpurple" class="colour pastelpurple">
-         <svg class="colorCheck" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle-2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-       </div>
-
-     </div>
-
-     <span class="credit"> v3.4.0 | Created by <a target="_blank" class="creditLink" href="https://worldwidepixel.ca/"> WorldWidePixel </a> </span>
-     <span class="credit"> Pastel colours from <a target="_blank" class="creditLink" href="https://github.com/catppuccin/catppuccin"> catppuccin </a> </span>
-     <span class="credit"> Fixes implemented by <a target="_blank" class="creditLink" href="https://github.com/rowandevving"> Rowan </a></span>
-
-   </div>
- </body>
-
- <script src="popup.js"></script>
-
+  <script src="popup.js"></script>
 </html>

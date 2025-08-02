@@ -52,20 +52,7 @@ header > div:nth-child(2) > .contents .popup-container .popup-menu {
   justify-content: center !important;
   border-radius: var(--size-rounded-card) !important;
 }
-/*main div.normal-page__sidebar {
-} */
 
-@media screen and (min-width: 1024px) {
-  .new-page.sidebar {
-    grid-template: "header header" auto "sidebar content" auto "dummy content" 1fr/18.75rem 1fr !important;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .new-page.sidebar {
-    grid-template: "header header" auto "sidebar content" auto "dummy content" 1fr/18.75rem 1fr !important;
-  }
-}
 .avatar {
   border: none !important;
 }

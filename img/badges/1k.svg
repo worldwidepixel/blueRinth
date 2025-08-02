@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg142753"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs142750" />
+  <g
+     id="layer1">
+    <path
+       id="rect36651-5-0-0-3-4-7-1-9"
+       style="font-variation-settings:normal;vector-effect:none;fill:#f21d8a;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       d="M 25,4.9997929e-7 17.6778,7.3223005 H 7.3228005 V 17.6769 L 4.9997929e-7,24.9997 7.3228005,32.3226 V 42.6777 H 17.6778 L 25,50 32.3222,42.6777 H 42.6778 V 32.3221 L 50,24.9997 42.6778,17.6774 V 7.3223005 H 32.3222 Z" />
+    <path
+       d="m 19.125,20.3818 v 9.2364 h -1.6732 v -7.6083 h -0.054 l -2.1602,1.38 v -1.5333 l 2.2955,-1.4748 z"
+       style="font-size:12.7px;font-family:Inter;-inkscape-font-specification:'Inter Semi-Bold';letter-spacing:-0.529167px;fill:#ffffff;stroke-width:0.264583"
+       id="path139570" />
+    <path
+       d="m 21.0357,29.6182 v -9.2364 h 1.6732 v 4.2439 h 0.1127 l 3.6034,-4.2439 h 2.043 l -3.5718,4.1446 3.6034,5.0918 h -2.0114 l -2.7556,-3.9598 -1.0237,1.2087 v 2.7511 z"
+       style="font-size:12.7px;font-family:Inter;-inkscape-font-specification:'Inter Semi-Bold';letter-spacing:-0.529167px;fill:#ffffff;stroke-width:0.264583"
+       id="path139572" />
+    <path
+       d="m 30.9335,28.1389 v -6.2418 h 1.4161 v 6.2418 z M 28.5207,25.7261 V 24.31 h 6.2417 v 1.4161 z"
+       style="font-size:12.7px;font-family:Inter;-inkscape-font-specification:'Inter Semi-Bold';letter-spacing:-0.529167px;fill:#ffffff;stroke-width:0.264583"
+       id="path139574" />
+  </g>
+</svg>

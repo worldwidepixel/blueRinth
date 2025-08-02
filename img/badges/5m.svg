@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg123012"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs123009" />
+  <g
+     id="layer1">
+    <path
+       id="rect36651-5"
+       style="font-variation-settings:normal;vector-effect:none;fill:#cb2245;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+       d="M 25,4.9997929e-7 17.6778,7.3223005 H 7.3228005 V 17.6769 L 4.9997929e-7,24.9997 7.3228005,32.3226 V 42.6777 H 17.6778 L 25,50 32.3222,42.6777 H 42.6778 V 32.3221 L 50,24.9997 42.6778,17.6774 V 7.3223005 H 32.3222 Z" />
+    <path
+       d="m 15.6726,29.6813 q -0.902,0 -1.6145,-0.3382 -0.7126,-0.3428 -1.132,-0.9381 -0.4149,-0.5953 -0.442,-1.362 h 1.6236 q 0.045,0.5683 0.4916,0.9291 0.4465,0.3562 1.0733,0.3562 0.4916,0 0.875,-0.2254 0.3833,-0.2255 0.6043,-0.6269 0.221,-0.4014 0.2165,-0.9155 0,-0.5232 -0.221,-0.9291 -0.2255,-0.4059 -0.6179,-0.6359 -0.3923,-0.2345 -0.902,-0.2345 -0.4149,0 -0.8163,0.1533 -0.4013,0.1579 -0.6359,0.4149 l -1.5108,-0.248 0.4826,-4.7625 h 5.3578 v 1.3981 h -3.9733 l -0.2661,2.4489 h 0.054 q 0.257,-0.3022 0.7261,-0.5006 0.469,-0.203 1.0282,-0.203 0.8389,0 1.4973,0.3969 0.6585,0.3924 1.0373,1.0824 0.3788,0.69 0.3788,1.5785 0,0.9155 -0.4239,1.6326 -0.4194,0.7125 -1.1681,1.1229 -0.7441,0.4059 -1.7228,0.4059 z"
+       style="font-size:12.7px;font-family:Inter;-inkscape-font-specification:'Inter Semi-Bold';letter-spacing:-0.529167px;fill:#ffffff;stroke-width:0.264583"
+       id="path119846" />
+    <path
+       d="m 20.0548,20.3187 h 2.0475 l 2.7421,6.6927 h 0.1082 l 2.742,-6.6927 h 2.0476 v 9.2364 h -1.6056 v -6.3455 h -0.086 L 25.498,29.528 h -1.1996 l -2.5527,-6.332 h -0.086 v 6.3591 h -1.6055 z"
+       style="font-size:12.7px;font-family:Inter;-inkscape-font-specification:'Inter Semi-Bold';letter-spacing:-0.529167px;fill:#ffffff;stroke-width:0.264583"
+       id="path119848" />
+    <path
+       d="M 33.6869,28.0758 V 21.834 h 1.4161 v 6.2418 z M 31.274,25.663 v -1.4161 h 6.2418 v 1.4161 z"
+       style="font-size:12.7px;font-family:Inter;-inkscape-font-specification:'Inter Semi-Bold';letter-spacing:-0.529167px;fill:#ffffff;stroke-width:0.264583"
+       id="path119850" />
+  </g>
+</svg>
