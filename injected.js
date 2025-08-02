@@ -1,5 +1,4 @@
 document.onreadystatechange = function () {
-  console.log("hi (load)");
   const projectRegex =
     /^https?:\/\/modrinth\.com\/(?:project|mod|resourcepack|shader|datapack|modpack)\/([^\/]+)/;
   const projectIdTest = projectRegex.exec(window.location.href);
