@@ -13,7 +13,28 @@
   "content_scripts": [
     {
       "matches": ["*://modrinth.com/*"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "css": [
+        "css/banners.css",
+        "css/blue.css",
+        "css/green.css",
+        "css/red.css",
+        "css/yellow.css",
+        "css/orange.css",
+        "css/design.css",
+        "css/green.css",
+        "css/nineMinecraft.css",
+        "css/pastelblue.css",
+        "css/pastelgreen.css",
+        "css/pastelorange.css",
+        "css/pastelred.css",
+        "css/pastelpurple.css",
+        "css/pastelred.css",
+        "css/pastelyellow.css",
+        "css/purple.css",
+        "css/red.css",
+        "css/template.css"
+      ]
     }
   ],
   "browser_specific_settings": {

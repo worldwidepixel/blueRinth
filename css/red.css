@@ -1,4 +1,4 @@
-:root {
+body.theme-red {
   --color-brand: #ff496e !important;
 
   --landing-green-label: #ff496e !important;
@@ -11,13 +11,14 @@
   --landing-blue-label-bg: rgb(216 0 0 / 15%) !important;
 }
 
-.users-section-outer
+body.theme-red
+  .users-section-outer
   .users-section
   .feature-blob
   .blob-demonstration[data-v-826e3f53]:after {
   background: linear-gradient(0deg, #ce0505, rgb(206 5 5 / 0%));
 }
-.main-header-strong[data-v-826e3f53] {
+body.theme-red .main-header-strong[data-v-826e3f53] {
   background-image: linear-gradient(
     180deg,
     #ffa7a7 0,
@@ -26,6 +27,6 @@
 }
 /* RED COMPLETED */
 
-* {
+body.theme-red * {
   --color-brand: #ff496e !important;
 }

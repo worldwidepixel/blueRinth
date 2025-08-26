@@ -1,4 +1,4 @@
-:root {
+body.theme-yellow {
   --color-brand: #ffb904 !important;
 
   --landing-green-label: #d39a00 !important;
@@ -11,13 +11,14 @@
   --landing-blue-label-bg: rgb(237 219 0 / 15%) !important;
 }
 
-.users-section-outer
+body.theme-yellow
+  .users-section-outer
   .users-section
   .feature-blob
   .blob-demonstration[data-v-826e3f53]:after {
   background: linear-gradient(0deg, #f1bd00, rgba(5, 206, 69, 0)) !important;
 }
-.main-header-strong[data-v-826e3f53] {
+body.theme-yellow .main-header-strong[data-v-826e3f53] {
   background-image: linear-gradient(
     180deg,
     #ffe4a7 0,
@@ -26,6 +27,6 @@
 }
 /* YELLOW COMPLETED */
 
-* {
+body.theme-yellow * {
   --color-brand: #ffb904 !important;
 }
