@@ -18,6 +18,12 @@
   animation: fadeIn 0.5s;
   animation-timing-function: ease-in-out;
   transition-duration: 1s;
+  backdrop-filter: blur(15px);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
 }
 
 .banner-bg {

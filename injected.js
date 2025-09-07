@@ -14,7 +14,7 @@ document.onreadystatechange = function () {
 useNuxtApp()._middleware.global.push(function handleRoute(to, from) {
   if (to.name.startsWith("type-id")) {
     const { id } = to.params;
-    //console.log("entering project", id);
+    console.log("entering project", id);
     runBanner(id);
   } else if (from.name && from.name.startsWith("type-id")) {
     const { id } = from.params;
@@ -33,6 +33,7 @@ const fallbackimage =
 let banner = fallbackimage;
 
 async function runBanner(id) {
+  console.log("runBanner called with id:", id);
   pageSupportsBanners = true;
   const apibase = "https://api.modrinth.com/v3/project/";
 
@@ -43,6 +44,8 @@ async function runBanner(id) {
       return;
     }
     const data = await response.json();
+    console.log("Project API data:", data);
+    console.log("gallery:", data.gallery);
     data.gallery.forEach((entry) => {
       if (entry.featured === true) {
         banner = entry.url;
@@ -57,14 +60,17 @@ async function runBanner(id) {
 }
 
 function applyBanners() {
+  console.log("applyBanners called, banner:", banner);
   if (pageSupportsBanners) {
     const bannerContainer = document.createElement("div");
     const bannerStyles = document.createElement("style");
     bannerStyles.innerHTML = `
-.banner-image {
-  background-image: linear-gradient(0deg, var(--color-bg) 0%, rgba(0, 0, 0, 0) 200%), url(${banner}) !important;
-}
-`;
+  .banner-image {
+    background-image:
+    linear-gradient(0deg, var(--color-bg) 0%, rgba(0, 0, 0, 0) 200%),
+    url(${banner}) !important;
+  }
+  `;
     document.head.appendChild(bannerStyles);
     bannerContainer.classList.add("banner-container");
     const bannerImage = document.createElement("div");

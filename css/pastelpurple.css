@@ -1,5 +1,5 @@
-:root {
-  --color-brand: #b4befe;
+body.theme-pastelpurple {
+  --color-brand: #b4befe !important;
 
   --landing-green-label: #9d00a9;
   --landing-green-label-bg: rgb(93 0 216 / 15%);
@@ -11,18 +11,19 @@
   --landing-blue-label-bg: rgb(93 0 216 / 15%);
 }
 
-.users-section-outer
+body.theme-pastelpurple
+  .users-section-outer
   .users-section
   .feature-blob
   .blob-demonstration[data-v-826e3f53]:after {
   background: linear-gradient(0deg, #3605ce, rgba(5, 206, 69, 0));
 }
 
-.main-header-strong[data-v-826e3f53] {
+body.theme-pastelpurple .main-header-strong[data-v-826e3f53] {
   background-image: linear-gradient(180deg, #ebdeff 0, var(--color-brand) 60%);
 }
 /* PASTEL PURPLE COMPLETED */
 
-* {
+body.theme-pastelpurple * {
   --color-brand: #b4befe !important;
 }

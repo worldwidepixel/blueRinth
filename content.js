@@ -1,40 +1,42 @@
-// Injected content
-
+// Injected content: inject your injected.js as before
 const script = document.createElement("script");
 script.setAttribute("type", "module");
 script.setAttribute("src", chrome.runtime.getURL("injected.js"));
+(document.head || document.documentElement).appendChild(script);
 
-const head =
-  document.head ||
-  document.getElementsByTagName("head")[0] ||
-  document.documentElement;
-head.insertBefore(script, head.lastChild);
+// Theme switching: toggles a class on <body>, does not inject any <link> or <style>
+function setThemeClass(theme) {
+  document.body.classList.remove(
+    "theme-blue",
+    "theme-green",
+    "theme-orange",
+    "theme-pastelblue",
+    "theme-pastelgreen",
+    "theme-pastelorange",
+    "theme-pastelpurple",
+    "theme-pastelred",
+    "theme-pastelyellow",
+    "theme-purple",
+    "theme-red",
+    "theme-yellow",
+    "theme-nineminecraft"
+  );
+  if (theme && theme !== "green") {
+    document.body.classList.add(`theme-${theme}`);
+  }
+}
 
-// Non-injected content
+// On load, apply user's chosen theme
+chrome.storage.sync.get("color").then((result) => {
+  setThemeClass(result["color"]);
+});
 
+// Listen for theme changes
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   if (request.action === "changeStylesheet") {
-    changeStylesheet(request.stylesheet);
+    setThemeClass(request.stylesheet);
   }
 });
-
-chrome.storage.sync.get("color").then((result) => {
-  changeStylesheet(result["color"]);
-});
-
-function changeStylesheet(stylesheet) {
-  const existingStyles = document.getElementById("dynamicStylesheet");
-  if (existingStyles) {
-    existingStyles.remove();
-  }
-
-  // Apply new stylesheet to the webpage from the extension context
-  const newStylesheet = document.createElement("link");
-  newStylesheet.rel = "stylesheet";
-  newStylesheet.href = chrome.runtime.getURL(`css/${stylesheet}.css`);
-  newStylesheet.id = "dynamicStylesheet";
-  document.head.appendChild(newStylesheet);
-}
 
 // Design changes
 

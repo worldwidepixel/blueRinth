@@ -1,4 +1,4 @@
-:root {
+body.theme-orange {
   --color-brand: #ff6204 !important;
 
   --landing-green-label: #cd7300 !important;
@@ -11,21 +11,24 @@
   --landing-blue-label-bg: rgb(216 100 0 / 15%) !important;
 }
 
-.users-section-outer
+body.theme-orange
+  .users-section-outer
   .users-section
   .feature-blob
   .blob-demonstration[data-v-826e3f53]:after {
   background: linear-gradient(0deg, #fd8100, rgb(206 127 5 / 0%)) !important;
 }
-.main-header-strong[data-v-826e3f53] {
+
+body.theme-orange .main-header-strong[data-v-826e3f53] {
   background-image: linear-gradient(
     180deg,
     #ffc7a7 0,
     var(--color-brand) 60%
   ) !important;
 }
+
 /* ORANGE COMPLETED */
 
-* {
+body.theme-orange * {
   --color-brand: #ff6204 !important;
 }
