@@ -16,7 +16,7 @@ useNuxtApp()._middleware.global.push(function handleRoute(to, from) {
     const { id } = to.params;
     //console.log("entering project", id);
     runBanner(id);
-  } else if (from.name.startsWith("type-id")) {
+  } else if (from.name && from.name.startsWith("type-id")) {
     const { id } = from.params;
     //console.log("leaving project", id);
     const containers = document.getElementsByClassName("banner-container");
