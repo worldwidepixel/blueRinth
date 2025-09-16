@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "blueRinth",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "Change the colour of Modrinth.",
   "icons": {
     "48": "img/icon.png"
